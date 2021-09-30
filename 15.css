@@ -1,0 +1,88 @@
+ /* CSS reset */
+ body{
+    margin: 0;
+    padding: 0;
+}
+/************/
+body{
+    border: 2px solid red;
+    padding: 10px;
+}
+h1 {
+    /* Sombra de texto, valores iguais aos de um box-shadow */
+    text-shadow: 2px 2px 4px slategray;
+}
+#box1{
+    border: 2px solid blue;
+    margin: 100px;
+    padding: 50px;
+    /* Sombra em um elemento de caixa 
+       Valores:
+       1) Deslocamento horizontal da sombra
+       2) Deslocamento vertical da sombra 
+       3) Embaçamento da sombra(quanto maior mais embaçada)
+       4) Cor 
+    */
+    box-shadow: 30px 5px 10px black;
+}
+#box2{
+    box-sizing: border-box;
+    /*Inclui borda e paading no
+    tamaho do elemento*/
+    border: 20px solid green;
+    height: 300px;
+    width: 500px;
+    padding: 0; /* Os quatros lados */
+    margin: 20px; /* Os quatros lados */
+    border-radius: 20px; /* Cantos aredondados */
+}
+#box3{
+    
+    background-color:darkseagreen;
+    border-top: 2px solid orange; /* topo */
+    border-right: 4px dotted blue; /* direita */
+    border-bottom: 2px dashed darkmagenta; /* embaixo */
+    border-left: 12px ridge limegreen; /* esquerda */
+    
+    /*
+    padding-top: 20px;
+    padding-right: 12px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    */
+    /* Parte do topo e segue no sentido horário*/
+    padding: 20px 12px 50px 20px;
+    /*
+    margin-top: 30px ;
+    margin-right: 16px;
+    margin-bottom: 10px ;
+    margin-left: 25px;
+    */
+    margin: 30px 16px 10px 25px;
+}
+#box4{
+    height: 150px;
+    width: 150px;
+    border: 4px solid orangered;
+    border-radius: 75px; /* Gera um círculo */
+    text-align: center;
+    display: flex; /* Habilita o flexbox */
+    align-items: center; /* Centraliza na vertical */
+    justify-content: center; /** Cebtraliza na horizontal */
+   
+}
+#imagem1{
+    border-radius: 50%;
+}
+#box5{
+    background-color: oldlace;
+    border: 2px solid sienna;
+    /*Quando sao dadas duas medidas, a primeira serve para top e botto e a segunda para left e right */
+    padding: 30px 50px;
+    margin: 40px 20px;
+
+    /* o Outline ( pouco utilizado) é um segundo contorno do elemento, externo á borda */
+    outline: 2px solid blue;
+}
+
+
